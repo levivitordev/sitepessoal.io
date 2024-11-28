@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>MEU SITE PESSOAL</title>
+
+    <style>
+        .datetime {
+            position: fixed;
+            top: 20px;
+            right: 220px;
+            font-size: 14px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+</head>
+<body> 
+    <script src="script.js"></script>
+    <main>
+    <section>
+     <img src="img/my.jpeg" alt="Minha Foto">
+      <h2>Olá, me chamo Levi Vitor !</h2>
+     <h4>Sou um desenvolvedor web em formação, com foco em front-end.<br> 
+        Atualmente, curso Sistemas para Internet na UNICAP e <br> 
+        estou adquirindo conhecimentos sólidos em HTML, CSS e JavaScript.<br>
+        Com um olhar atento para o futuro, busco me especializar em TypeScript <br> e Python para expandir minhas habilidades. <br> 
+        Meu objetivo é construir uma carreira sólida em desenvolvimento web<br> trabalhando em projetos desafiadores e colaborando com equipes de alta performance.
+    </h4> 
+    <h4 class="outro"> Além disso, atualmente estou no "SERVIÇO MILITAR OBRIGATÓRIO" pelo Exército Brasileiro.<br>
+    Lá, faço parte da Comunicação Social  (COMSOC) do quartel, onde sou responsável por fazer posts para o instagram <br>e fotografo eventos específicos dentro do aquartelamento.
+    </h4>
+    
+    </section>
+ <a href="galeria.html" target="_blank"><button id="galleryButton">GALERIA DE FOTOS</button></a>
+ <a href="contato.html" target="_blank"><button id="contactButton">CONTATO</button></a>
+
+
+
+ <div class="datetime" id="datetime"></div>
+        <script>
+             document.getElementById("galleryButton").addEventListener("click", function () {
+        alert("aperte em 'OK' para ser direcionado para minha galeria!");
+    });
+
+    document.getElementById("contactButton").addEventListener("click", function () {
+        alert("Aqui você irá me contatar");
+    });
+        </script>
+    </main>
+</body>
+</html>

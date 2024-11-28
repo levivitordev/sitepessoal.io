@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap');
+body {
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/wp10965747.png');
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 6px;
+}
+
+h2{
+    font-size: 60px;
+    font-family: "Orbitron", sans-serif;
+    margin: 0;
+    color: rgb(9, 224, 206);
+    text-decoration: overline;
+    
+    
+}
+.outro h4{
+    text-align: end;
+    font-weight: normal;
+}
+h4{
+   
+    font-size: 22px;
+    text-align: left;
+    font-weight: normal;
+    text-align: justify;
+    color: white;
+    
+}
+
+img{ 
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px rgb(252, 254, 255);
+    border-radius: 100px;
+    margin: 2%;
+    
+}
+button{
+    margin: 1%;
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: rgb(9, 224, 206);
+    border: 1px rgb(9, 224, 206);
+    border-radius: 45px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+
+    background-color: rgb(255, 249, 249);
+    color: rgb(248, 114, 36);
+}
+
+.pag2{
+    background-image: url('img/galeria de fotos.jpg');
+    text-align: center;
+   font-family: "Orbitron", sans-serif;
+   font-size: 25px;
+   color: rgba(91, 226, 50, 0.733);
+   margin: 0; 
+   padding: 0;
+   
+}
+.pag3{
+    background-image: url('img/fundo contato.avif');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.pag3-1 img{
+  width: 150px;
+  height: 150px;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+.pag3-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+.pag3-1 h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Orbitron", sans-serif;;
+}
+.pag3-1 p{
+    color: white ;
+}
+.pag3-1 a{
+    background-color: rgb(255, 8, 0);
+    color: #fff;
+    padding: 15px;
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 2px white;
+    border-radius: 10px;
+
+}
+.pag3-1 a:hover{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+
+
+.galeriadefoto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-items {
+    margin: 1%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-items img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery-items:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(23, 189, 1);
+}
+
+
+
+    
